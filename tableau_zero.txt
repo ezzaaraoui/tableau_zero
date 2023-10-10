@@ -1,0 +1,12 @@
+algorithme tableau_zero
+
+variable
+	tableau T(10):entier 
+	i:entier
+
+Debut
+	pour i <-- 0 a 9 faire 
+		T(i)<--0
+		ecrire(T(i))
+	fin pour
+fin
